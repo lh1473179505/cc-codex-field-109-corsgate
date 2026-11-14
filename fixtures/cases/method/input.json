@@ -1,0 +1,9 @@
+{
+  "case": "method",
+  "id": "deny-2",
+  "marker": "method",
+  "path": "/evil/corsgate/2",
+  "kid": "k-active",
+  "sig": "esFd3J8gZ20Ppe_V4dvpp2Hmvcd7qXF8yqbwlKF1fn8",
+  "_sign_line": "v1|k-active|37f6fd1d1132114a3d0d24998949d4df918ecefb9e6d54464c206cc8bc2ddf9a"
+}

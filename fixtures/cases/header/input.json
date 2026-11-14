@@ -1,0 +1,9 @@
+{
+  "case": "header",
+  "id": "deny-3",
+  "marker": "header",
+  "path": "/evil/corsgate/3",
+  "kid": "k-active",
+  "sig": "Y9j4VkPnpDrdi70k6UN48_r-iZSPGisYGFNrBcI2mU8",
+  "_sign_line": "v1|k-active|6e8ec2ccc22617ce54e38f12e5c4833042dab586b751f0c2c63ccb2de5fea24f"
+}

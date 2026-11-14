@@ -1,0 +1,9 @@
+{
+  "case": "revoked",
+  "id": "deny-6",
+  "marker": "revoked",
+  "path": "/evil/corsgate/6",
+  "kid": "k-revoked",
+  "sig": "WdOyTeCx5MP78DWQnFx5b5g8GeKK_zcrjgWcGMjjXA0",
+  "_sign_line": "v1|k-revoked|f8bc083767ccf0ed972ff8f53bbbabad60ef42bceb295a75132dbd69d17d35a2"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "ok-cred",
+  "id": "ok-1",
+  "marker": "allow-candidate",
+  "path": "/v1/corsgate/1",
+  "kid": "k-active",
+  "sig": "wqzgb8-3VE76tAOMJXktpx9OxYXOsejlqjKRh9sWCH8",
+  "_sign_line": "v1|k-active|6165dd690f3aed38e48b3d79abd07ac4c3e2c04cbd2b241f51421c6d02683136"
+}

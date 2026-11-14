@@ -1,0 +1,9 @@
+{
+  "case": "null",
+  "id": "deny-5",
+  "marker": "null",
+  "path": "/evil/corsgate/5",
+  "kid": "k-active",
+  "sig": "1vwDm15hfogH-a-y3eF2pJ9i9XfFWhlY0mFoVB7Cy3c",
+  "_sign_line": "v1|k-active|bfa15ebcdffee54b6d3ad225a7af2c88d2a79829a36175bd4de9fd7517ba6dc5"
+}

@@ -1,0 +1,9 @@
+{
+  "case": "dup-header",
+  "id": "deny-7",
+  "marker": "dup-header",
+  "path": "/evil/corsgate/7",
+  "kid": "k-active",
+  "sig": "TuB8k69VNiWqlaxFFDxm5ESiSoOMfxUw27ZIupzPKTo",
+  "_sign_line": "v1|k-active|2220cc2f46441f6c2a3438f6356fbad662e7a5d4dab8a2d50e13a4e8499a76ea"
+}

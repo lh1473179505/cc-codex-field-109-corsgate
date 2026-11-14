@@ -1,0 +1,9 @@
+{
+  "case": "origin",
+  "id": "deny-1",
+  "marker": "origin",
+  "path": "/evil/corsgate/1",
+  "kid": "k-active",
+  "sig": "spRwRsQGGQoALjQPvGKkNqbiMV4famwmltD3pBQ-rfg",
+  "_sign_line": "v1|k-active|05f822c1b6f92685d470645a437e1abc622a6b4512d9d5f687f430040b5e2d2f"
+}

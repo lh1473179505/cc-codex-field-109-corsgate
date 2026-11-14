@@ -1,0 +1,9 @@
+{
+  "case": "bad-sig",
+  "id": "deny-0",
+  "marker": "bad-sig",
+  "path": "/evil/corsgate/0",
+  "kid": "k-active",
+  "sig": "VfiSJ5jOM8SNzZesCmH0wkof6kkfnQ2uut0oAyHX1lI",
+  "_sign_line": "v1|k-active|62209b8bbceb6e413cebcf8ccaf4f03fa67a9088f8552a49e4d3e20fa56a9e20"
+}

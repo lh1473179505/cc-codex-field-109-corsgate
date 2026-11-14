@@ -1,0 +1,9 @@
+{
+  "case": "cred-star",
+  "id": "deny-4",
+  "marker": "cred-star",
+  "path": "/evil/corsgate/4",
+  "kid": "k-active",
+  "sig": "Dl-zHhvtJ_3vl3jpWnfX7m-yb1F0mxXIJJWERLn8npA",
+  "_sign_line": "v1|k-active|01f4921b95ad8c1ed5e67f7eb8cc8ed862d93bb812122ea7b775855ebdf94506"
+}
