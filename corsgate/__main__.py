@@ -22,22 +22,34 @@ def main(argv: list[str] | None = None) -> int:
 
     args = ap.parse_args(argv)
     if args.cmd == "inspect":
-        obj = load_json(args.input)
+        try:
+            obj = load_json(args.input)
+        except (OSError, ValueError) as e:
+            print(f"load failure: {e}", file=sys.stderr)
+            return 2
         print(json.dumps(inspect_object(obj), ensure_ascii=False, indent=2))
         return 0
 
-    obj = load_json(args.input)
-    keys = load_json(args.keys)
-    policy = load_json(args.policy)
-    store = load_store(args.store)
+    try:
+        obj = load_json(args.input)
+        keys = load_json(args.keys)
+        policy = load_json(args.policy)
+        store = load_store(args.store)
+    except (OSError, ValueError) as e:
+        print(f"load failure: {e}", file=sys.stderr)
+        return 2
     now = None
     if args.now:
-        # accept unix int or leave None for stub
+        # accept unix int or ISO-8601 timestamp
         try:
             now = int(args.now)
         except ValueError:
-            from datetime import datetime, timezone
-            now = int(datetime.fromisoformat(args.now.replace("Z", "+00:00")).timestamp())
+            from datetime import datetime
+            try:
+                now = int(datetime.fromisoformat(args.now.replace("Z", "+00:00")).timestamp())
+            except ValueError as e:
+                print(f"load failure: invalid --now: {e}", file=sys.stderr)
+                return 2
     try:
         report = admit_object(obj, keys, policy, store, now)
     except ValueError as e:
